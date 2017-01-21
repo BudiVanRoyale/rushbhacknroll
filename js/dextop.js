@@ -31,7 +31,7 @@ $("#log-off-btn").click(function() {
 });
 
 $("#shutdown-btn").click(function() {
-    window.location = "shutdown.html"
+    window.location = "BSOD.html"
 });
 
 

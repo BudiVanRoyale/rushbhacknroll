@@ -6,6 +6,9 @@ html {
 
 footer {
 	color : white;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
 
 }
 
@@ -22,24 +25,25 @@ body {
 }
 
 #loadingbar {
-    
-    height:100px;
+    height:10px;
     left:600px; /* play around with this */
-    position:absolute;
-    top:-80px; /* and play around with this */
+    position:relative;
+     /* and play around with this top:-80px; */
     width:0px;
-    z-index: 1;
+    display: inline-block;
+    z-index: 3;
 
 }
 
 
 #loading {
-    background-image:url("Images/loading.png");
-    height:548px;
+    height:50px;
     margin-left:auto;
     margin-right:auto;
     position:relative; /* and this has to be relative */
-    width:731px;
+    width:300px;
+    top: 100px;
+
 
 } 
 
