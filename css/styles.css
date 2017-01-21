@@ -1,0 +1,47 @@
+selector { cursor: none; }
+
+html {
+	background:black;
+}
+
+footer {
+	color : white;
+
+}
+
+figure {
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+body {
+  cursor: none;
+  margin: 0;
+  height: 100vh;
+}
+
+#loadingbar {
+    
+    height:100px;
+    left:600px; /* play around with this */
+    position:absolute;
+    top:-80px; /* and play around with this */
+    width:0px;
+    z-index: 1;
+
+}
+
+
+#loading {
+    background-image:url("Images/loading.png");
+    height:548px;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative; /* and this has to be relative */
+    width:731px;
+
+} 
+
+
+
